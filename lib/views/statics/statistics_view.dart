@@ -1,3 +1,4 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -11,6 +12,20 @@ class StaticsView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final PoseController controller = Get.find<PoseController>();
+    final FirebaseFirestore firestore = FirebaseFirestore.instance;
+
+    void sendToFirestore(List<double> maxAnglesList) {
+      Map<String, dynamic> data = {
+        'maxAnglesList': maxAnglesList,
+      };
+
+      firestore
+          .collection('001')
+          .add(data)
+          .then((docRef) {})
+          .catchError((error) {});
+    }
+
     double average = controller.averageAngle;
     return Scaffold(
       appBar: AppBar(
@@ -61,6 +76,7 @@ class StaticsView extends StatelessWidget {
       ),
       floatingActionButton: FloatingActionButton.extended(
         onPressed: () {
+          sendToFirestore(controller.maxAnglesList);
           Get.offAll(const SplashScreen());
           controller.setCounter(5);
           controller.resetmaxAnglesList();
