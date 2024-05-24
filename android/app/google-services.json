@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "313381471696",
+    "project_id": "osteoartrit-ft-asistant",
+    "storage_bucket": "osteoartrit-ft-asistant.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:313381471696:android:f5e8a9e237b4c2e0b1e5d5",
+        "android_client_info": {
+          "package_name": "com.example.firebase_oa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtsjUXVjAqeJmADsU0TM0r9DSXxURXdWk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:313381471696:android:a14204e2296a912ab1e5d5",
+        "android_client_info": {
+          "package_name": "com.example.test_1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtsjUXVjAqeJmADsU0TM0r9DSXxURXdWk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
