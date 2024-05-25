@@ -3,7 +3,6 @@
 [![Flutter](https://img.shields.io/badge/Flutter-3.10.1-blue.svg)](https://flutter.dev)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/devfleksa/Tubitak2204A_2024/blob/main/LICENSE)
 
-
 # TR
 
 2024 yılında düzenlenen, Tübitak 2204A **Osteoartrit Hastalarının Rehabilitasyonu İçin Yapay Zekâ Destekli Fizyoterapi Takip Asistanı Geliştirilmesi; Diz-Kalça Eklemi Örneği** adlı projenin kod reposu.
