@@ -9,15 +9,23 @@
 
 lib
 └── main.dart # Entry point of the application.
+
 └── screens # All the UI screens.
+
 └── models # Data models.
+
 └── services # Backend services.
+
 └── widgets # Reusable widgets.
+
 └── utils # Utility functions and constants.
+
 test
 └── widget_test.dart # Widget test.
+
 assets
 └── images # Image assets.
+
 └── fonts # Font assets.
 
 ## Getting Started
