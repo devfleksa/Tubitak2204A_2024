@@ -1,4 +1,4 @@
-# Tubitak 2204A 2024 - MEF 2024 - ISEF 2025
+# Tubitak 2204A 2024 - MEF 2024 - TEKNOFEST 2024 - IISEEF 2024 -ISEF 2025
 
 [![Flutter](https://img.shields.io/badge/Flutter-3.10.1-blue.svg)](https://flutter.dev)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/devfleksa/Tubitak2204A_2024/blob/main/LICENSE)
